@@ -16,3 +16,9 @@ a {
 a:visited {
     color: lightcoral;
 }
+
+#tooltip {
+    position: absolute;
+    width: auto;
+    color: yellow;
+}
