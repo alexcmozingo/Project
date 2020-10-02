@@ -272,7 +272,7 @@ var drawLabels2 = function(graph, margins)
         .classed("label", true)
         .attr("text-anchor", "middle")
         .attr("x", margins.left+(graph.width/2))
-        .attr("y", graph.height+margins.top+margins.bottom)
+        .attr("y", graph.height+margins.top+margins.bottom-(10))
     
 }
 
