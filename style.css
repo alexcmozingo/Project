@@ -20,9 +20,47 @@ a:visited {
 #tooltip {
     position: absolute;
     width: auto;
-    color: yellow;
+    color: black
 }
 
 #interPara {
     color: black;
+}
+
+#NHL {
+    fill: blue;
+}
+
+#NBA {
+    fill: red;
+}
+
+#NFL {
+    fill: orange;
+}
+
+#Tackling, #Tackled {
+    fill: grey;
+}
+
+#Blocking, #Blocked {
+    fill: aqua;
+}
+
+h2 {
+    position: relative;
+    transform: translate(60px, 150px);
+    font-size: 32px;
+}
+
+#graph {
+    display: inline-block;
+}
+
+#Tackles {
+    fill: grey;
+}
+
+#Blocks {
+    fill: aqua;
 }
