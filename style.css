@@ -20,7 +20,7 @@ a:visited {
 #tooltip {
     position: absolute;
     width: auto;
-    color: black
+    color: black;
 }
 
 #interPara {
@@ -47,10 +47,14 @@ a:visited {
     fill: aqua;
 }
 
-h2 {
+#ins1 {
     position: relative;
     transform: translate(60px, 150px);
     font-size: 32px;
+}
+
+#ins2 {
+    transform: translate(60px, 117px);
 }
 
 #graph {
@@ -63,4 +67,8 @@ h2 {
 
 #Blocks {
     fill: aqua;
+}
+
+#Contacts {
+    fill: yellow;
 }
