@@ -126,6 +126,12 @@ var drawLabels1 = function(graph, margins)
         .attr("text-anchor", "middle")
         .attr("x", margins.left+(graph.width/2))
         .attr("y", graph.height+margins.top+margins.bottom-(10))
+    labels.append("text")
+        .text("Click graph to see NFL data")
+        .classed("label", true)
+        .attr("text-anchor", "middle")
+        .attr("id", "ins1")
+        .attr("transform", "translate(300,150)")
     
 }
 
@@ -439,6 +445,12 @@ var drawLabels3 = function(graph, margins)
         .attr("text-anchor", "middle")
         .attr("x", margins.left+(graph.width/2))
         .attr("y", graph.height+margins.top+margins.bottom-(10))
+    labels.append("text")
+        .text("Click graph to combine Tackling and Blocking data")
+        .classed("label", true)
+        .attr("text-anchor", "middle")
+        .attr("id", "ins2")
+        .attr("transform", "translate(430,110)")
     
 }
 

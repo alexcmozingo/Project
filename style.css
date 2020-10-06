@@ -48,13 +48,11 @@ a:visited {
 }
 
 #ins1 {
-    position: relative;
-    transform: translate(60px, 150px);
-    font-size: 32px;
+    font-size: 24px;
 }
 
 #ins2 {
-    transform: translate(60px, 117px);
+    font-size: 24px;
 }
 
 #graph {
