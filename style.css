@@ -1,16 +1,17 @@
 body {
-    background-color: forestgreen
+    background-color: #247c2c;
 }
 
 h1 {
-    color: yellow
+    color: #f7d80f;
+    font-size: 60px;
 }
 p {
-    color: yellow
+    color: #f7d80f;
 }
 
 a {
-    color: yellow;
+    color: #f7d80f;
 }
 
 a:visited {
@@ -32,7 +33,7 @@ a:visited {
 }
 
 #NBA {
-    fill: red;
+    fill: maroon;
 }
 
 #NFL {
@@ -40,11 +41,11 @@ a:visited {
 }
 
 #Tackling, #Tackled {
-    fill: grey;
+    fill: #61697f;
 }
 
 #Blocking, #Blocked {
-    fill: aqua;
+    fill: #71ddf3;
 }
 
 #ins1 {
@@ -60,13 +61,13 @@ a:visited {
 }
 
 #Tackles {
-    fill: grey;
+    fill: #61697f;
 }
 
 #Blocks {
-    fill: aqua;
+    fill: #71ddf3;
 }
 
 #Contacts {
-    fill: yellow;
+    fill: #f7d80f;
 }
